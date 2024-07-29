@@ -17,7 +17,7 @@ public class SumUsingDoWhile {
         //statements;
         }while(condition);
          */
-        int count = 0;
+        int greater100Count = 0;
         int userInputCounter = 0;
         do {
             System.out.println("enter an integer for sum, enter 0 to stop");
@@ -29,11 +29,11 @@ public class SumUsingDoWhile {
             if(userInput <= 100) {
                 sum = sum + userInput;
             }else {
-                count++;
+                greater100Count++;
             }
         } while (userInput != 0);
         System.out.println("sum = " + sum);
-        System.out.println("count = " + count);
+        System.out.println("greater100Count = " + greater100Count);
         System.out.println("userInputCounter = " + userInputCounter);
     }
 }
